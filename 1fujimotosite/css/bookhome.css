@@ -1,0 +1,154 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+  background-image: url("../images/mangabg.png");
+  height: 100%;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.activefont{
+  color: white;
+  font-family: "Montserrat";
+}
+
+.pagetitle{
+  font-size: 100px;
+  font-weight: 900;
+  color: #d20000;
+}
+
+h2{
+  color:#d20000;
+  font-size: 50px;
+}
+
+.styletext{
+  font-size: 24px;
+  padding-left: 30px;
+}
+
+.csmtxt, .fptxt, .lbtxt, .getxt, .jlttstxt{
+  font-size: 45px;
+  font-weight: 600;
+}
+
+
+.csmpic{
+  background-image: url("../images/csmmanga.png");
+  height: 600px;
+  width: 382px;
+  background-repeat: no-repeat;
+}
+
+.fppic{
+  background-image: url("../images/fpmanga.png");
+  height: 600px;
+  width: 382px;
+  background-repeat: no-repeat;
+}
+
+.lbpic{
+  background-image: url("../images/lbmanga.png");
+  height: 600px;
+  width: 420px;
+  background-repeat: no-repeat;
+}
+
+.gepic{
+  background-image: url("../images/gemanga.png");
+  height: 600px;
+  width: 420px;
+  background-repeat: no-repeat;
+}
+
+.jlttspic{
+  background-image: url("../images/jlttsmanga.png");
+  height: 600px;
+  width: 429px;
+  background-repeat: no-repeat;
+}
+
+.csm{
+  position: absolute;
+  top: 300px;
+  left: 30px;
+}
+
+.fp{
+  position: absolute;
+  left: 545px;
+  top: 600px;
+}
+
+.lb{
+  position: absolute;
+  left: 1060px;
+  top: 800px;
+}
+
+.ge{
+  position: absolute;
+  top: 1030;
+  left: 30px;
+}
+
+.jltts{
+  position: absolute;
+  top: 1330px;
+  left: 530px;
+}
+
+/**COPY PASTE CSM MENU CODE STARTS HERE**/
+.chainpicture{
+  background-image: url("../images/menuexample.png");
+  background-repeat: no-repeat;
+  width: 1033px;
+  height: 436px;
+  position: fixed;
+  z-index: 1;
+  left: 1300;
+}
+
+.chainpicture:hover{
+  animation: menu_move;
+  animation-fill-mode:forwards;
+  animation-duration: 1.75s;
+}
+
+@keyframes menu_move{
+  0%{left: 1300px;}
+  5%{left: 1200px;}
+  25%{left: 900px;}
+  100%{left: 500px;}
+}
+
+.mangabutton{
+  width: 232px;
+  height: 81px;
+}
+
+.biobutton{
+    width: 375px;
+    height: 117px;
+}
+
+.illbutton{
+  width: 503px;
+  height: 93px;
+}
+
+.homebutton{
+  background-image: url("../images/homebutton.png");
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 183px;
+  position: fixed;
+  z-index: 2;
+  left: 1400px;
+  top: 550px;
+}

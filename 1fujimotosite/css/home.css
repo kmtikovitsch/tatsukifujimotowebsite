@@ -1,0 +1,97 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+
+.activefont{
+  color: white;
+  font-family: "Montserrat";
+}
+
+.titlename1, .titlename2{
+  font-size: 260px;
+  font-weight: 900;
+}
+.warning{
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+  font-weight: 800;
+  opacity: 50%;
+}
+
+
+.titlename1{
+  opacity: 0%;
+  animation: name1;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+.titlename2{
+  opacity: 0%;
+  animation: name2;
+  animation-duration: 2s;
+  animation-delay: 1.25s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes name2{
+  0%{opacity: 0%; color: #ffffff;}
+  10%{opacity: 20%;color: #ffffff;}
+  20%{opacity: 40%;color: #ffffff;}
+  30%{opacity: 60%;color: #ffffff;}
+  40%{opacity: 80%;color: #ffffff;}
+  50%{opacity: 100%;color: #ffffff;}
+  60%{opacity: 100%;color: #ff9595;}
+  70%{opacity: 100%;color: #ff5d5d;}
+  80%{opacity: 100%;color: #f15353;}
+  90%{opacity: 100%;color: #e32626;}
+  100%{opacity: 100%;color: #d20000;}
+}
+@keyframes name1{
+0%{opacity: 0%;}
+25%{opacity: 25%;}
+50%{opacity: 50%;}
+75%{opacity: 75%;}
+100%{opacity: 100%;}
+}
+
+/**COPY PASTE CSM MENU CODE STARTS HERE**/
+.chainpicture{
+  background-image: url("../images/menuexample.png");
+  background-repeat: no-repeat;
+  width: 1033px;
+  height: 436px;
+  position: fixed;
+  z-index: 1;
+  left: 1300;
+}
+
+.chainpicture:hover{
+  animation: menu_move;
+  animation-fill-mode:forwards;
+  animation-duration: 1.75s;
+}
+
+@keyframes menu_move{
+  0%{left: 1300px;}
+  5%{left: 1200px;}
+  25%{left: 900px;}
+  100%{left: 500px;}
+}
+
+.mangabutton{
+  width: 232px;
+  height: 81px;
+}
+
+.biobutton{
+    width: 375px;
+    height: 117px;
+}
+
+.illbutton{
+  width: 503px;
+  height: 93px;
+}

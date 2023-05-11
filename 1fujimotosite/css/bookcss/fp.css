@@ -1,0 +1,103 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+.activefont{
+  color: white;
+  font-family: "Montserrat";
+}
+
+.pagetitle{
+  font-size: 100px;
+  font-weight: 900;
+  color: #d20000;
+}
+
+.container{
+  padding-top: 60px;
+  display: grid;
+  grid-template-columns: 500px 700px;
+  grid-template-rows: 785px;
+}
+
+.info{
+  font-size: 25px;
+  margin-left: 45px;
+  line-height: 40px;
+}
+
+.ratingspot{
+  padding-left: 40px;
+  font-size: 50px;
+  font-weight: 600;
+  color: #d20000;
+}
+
+.link{
+  padding-top: 50px;
+  font-size: 30px;
+  color: gray;
+}
+
+.bookpic{
+  background-image: url("../../images/fpbookimage.png");
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 785px;
+}
+
+/**COPY PASTE CSM MENU CODE STARTS HERE**/
+.chainpicture{
+  background-image: url("../../images/menuexample.png");
+  background-repeat: no-repeat;
+  width: 1033px;
+  height: 436px;
+  position: fixed;
+  z-index: 1;
+  left: 1300;
+}
+
+.chainpicture:hover{
+  animation: menu_move;
+  animation-fill-mode:forwards;
+  animation-duration: 1.75s;
+}
+
+@keyframes menu_move{
+  0%{left: 1300px;}
+  5%{left: 1200px;}
+  25%{left: 900px;}
+  100%{left: 500px;}
+}
+
+.mangabutton{
+  width: 232px;
+  height: 81px;
+}
+
+.biobutton{
+    width: 375px;
+    height: 117px;
+}
+
+.illbutton{
+  width: 503px;
+  height: 93px;
+}
+
+.homebutton{
+  background-image: url("../../images/homebutton.png");
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 183px;
+  position: fixed;
+  z-index: 2;
+  left: 1400px;
+  top: 550px;
+}

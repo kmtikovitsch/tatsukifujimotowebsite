@@ -1,0 +1,138 @@
+body{
+  background-color: black;
+  overflow-x: hidden;
+  background-image: url("../images/biobg.jpg");
+}
+
+.activefont{
+  color: white;
+  font-family: "Montserrat";
+}
+
+.pagetitle{
+  font-size: 100px;
+  font-weight: 900;
+  color: #d20000;
+}
+
+h2{
+  color:#d20000;
+  font-size: 50px;
+  padding-left: 30px;
+}
+
+.styletext{
+  font-size: 24px;
+  padding-left: 70px;
+  line-height: 50px;
+  margin-bottom: 200px;
+}
+
+.earlytext{
+  font-size: 24px;
+  line-height: 50px;
+  padding-left: 70px;
+  margin-bottom: 250px;
+}
+
+.thelist{
+  padding-left: 30px;
+  font-size: 30px;
+}
+
+.factlist{
+  font-size: 24px;
+  padding-left: 30px;
+}
+
+.factarea{
+  padding-bottom: 200px;
+}
+
+.factlist{
+  padding-left: 70px;
+}
+
+.thelist{
+  padding-left: 70px;
+}
+
+.fujiimage{
+  background-image: url("../images/fujimoto.png");
+  background-repeat: no-repeat;
+  width: 640px;
+  height: 853px;
+  position: absolute;
+  top: 250px;
+  left: 1120px;
+}
+
+.fujiimage2{
+  background-image: url("../images/littleguy.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 360px;
+  height: 360px;
+  top: 2700px;
+  left: 1100px;
+}
+
+.fujiimage3{
+  background-image: url("../images/levitate.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 1000px;
+  top: 1650px;
+}
+
+/**COPY PASTE CSM MENU CODE STARTS HERE**/
+.chainpicture{
+  background-image: url("../images/menuexample.png");
+  background-repeat: no-repeat;
+  width: 1033px;
+  height: 436px;
+  position: fixed;
+  z-index: 1;
+  left: 1300;
+}
+
+.chainpicture:hover{
+  animation: menu_move;
+  animation-fill-mode:forwards;
+  animation-duration: 1.75s;
+}
+
+@keyframes menu_move{
+  0%{left: 1300px;}
+  5%{left: 1200px;}
+  25%{left: 900px;}
+  100%{left: 500px;}
+}
+
+.mangabutton{
+  width: 232px;
+  height: 81px;
+}
+
+.biobutton{
+    width: 375px;
+    height: 117px;
+}
+
+.illbutton{
+  width: 503px;
+  height: 93px;
+}
+
+.homebutton{
+  background-image: url("../images/homebutton.png");
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 183px;
+  position: fixed;
+  z-index: 2;
+  left: 1400px;
+  top: 550px;
+}
